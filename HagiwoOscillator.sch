@@ -286,17 +286,6 @@ F 3 "" H 8500 2400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R R7
-U 1 1 60E0E94B
-P 8200 2550
-F 0 "R7" V 7993 2550 50  0000 C CNN
-F 1 "1k" V 8084 2550 50  0000 C CNN
-F 2 "Sonosus:Resistor" V 8130 2550 50  0001 C CNN
-F 3 "~" H 8200 2550 50  0001 C CNN
-	1    8200 2550
-	0    -1   1    0   
-$EndComp
-$Comp
 L Device:R_POT RV1
 U 1 1 60E0E51A
 P 8500 2550
@@ -330,17 +319,6 @@ F 3 "" H 8500 3300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R R8
-U 1 1 60E13B9F
-P 8200 3450
-F 0 "R8" V 7993 3450 50  0000 C CNN
-F 1 "1k" V 8084 3450 50  0000 C CNN
-F 2 "Sonosus:Resistor" V 8130 3450 50  0001 C CNN
-F 3 "~" H 8200 3450 50  0001 C CNN
-	1    8200 3450
-	0    -1   1    0   
-$EndComp
-$Comp
 L Device:R_POT RV2
 U 1 1 60E13BA9
 P 8500 3450
@@ -350,50 +328,6 @@ F 2 "Sonosus:Potentiometer_Alpha_RD901F-40-00D_centred" H 8500 3450 50  0001 C C
 F 3 "~" H 8500 3450 50  0001 C CNN
 	1    8500 3450
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C9
-U 1 1 60E1BADE
-P 8050 2700
-F 0 "C9" H 8165 2746 50  0000 L CNN
-F 1 "10n" H 8165 2655 50  0000 L CNN
-F 2 "Sonosus:Capacitor_NonPolarized" H 8088 2550 50  0001 C CNN
-F 3 "~" H 8050 2700 50  0001 C CNN
-	1    8050 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR023
-U 1 1 60E1C0DB
-P 8050 2850
-F 0 "#PWR023" H 8050 2600 50  0001 C CNN
-F 1 "GND" V 8055 2722 50  0000 R CNN
-F 2 "" H 8050 2850 50  0001 C CNN
-F 3 "" H 8050 2850 50  0001 C CNN
-	1    8050 2850
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:C C10
-U 1 1 60E1C2E8
-P 8050 3600
-F 0 "C10" H 8165 3646 50  0000 L CNN
-F 1 "10n" H 8165 3555 50  0000 L CNN
-F 2 "Sonosus:Capacitor_NonPolarized" H 8088 3450 50  0001 C CNN
-F 3 "~" H 8050 3600 50  0001 C CNN
-	1    8050 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR024
-U 1 1 60E1C7E6
-P 8050 3750
-F 0 "#PWR024" H 8050 3500 50  0001 C CNN
-F 1 "GND" V 8055 3622 50  0000 R CNN
-F 2 "" H 8050 3750 50  0001 C CNN
-F 3 "" H 8050 3750 50  0001 C CNN
-	1    8050 3750
-	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR033
@@ -418,17 +352,6 @@ F 3 "" H 8500 4200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R R9
-U 1 1 60E1CE45
-P 8200 4350
-F 0 "R9" V 7993 4350 50  0000 C CNN
-F 1 "1k" V 8084 4350 50  0000 C CNN
-F 2 "Sonosus:Resistor" V 8130 4350 50  0001 C CNN
-F 3 "~" H 8200 4350 50  0001 C CNN
-	1    8200 4350
-	0    -1   1    0   
-$EndComp
-$Comp
 L Device:R_POT RV3
 U 1 1 60E1CE4F
 P 8500 4350
@@ -439,45 +362,14 @@ F 3 "~" H 8500 4350 50  0001 C CNN
 	1    8500 4350
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:C C11
-U 1 1 60E1CE59
-P 8050 4500
-F 0 "C11" H 8165 4546 50  0000 L CNN
-F 1 "10n" H 8165 4455 50  0000 L CNN
-F 2 "Sonosus:Capacitor_NonPolarized" H 8088 4350 50  0001 C CNN
-F 3 "~" H 8050 4500 50  0001 C CNN
-	1    8050 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR025
-U 1 1 60E1CE63
-P 8050 4650
-F 0 "#PWR025" H 8050 4400 50  0001 C CNN
-F 1 "GND" V 8055 4522 50  0000 R CNN
-F 2 "" H 8050 4650 50  0001 C CNN
-F 3 "" H 8050 4650 50  0001 C CNN
-	1    8050 4650
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	8050 2550 7000 2550
 Wire Wire Line
 	7000 2550 7000 3350
 Wire Wire Line
 	7000 3350 6250 3350
-Connection ~ 8050 2550
-Wire Wire Line
-	8050 3450 6250 3450
-Connection ~ 8050 3450
-Wire Wire Line
-	8050 4350 7550 4350
 Wire Wire Line
 	7550 4350 7550 3650
 Wire Wire Line
 	7550 3650 6250 3650
-Connection ~ 8050 4350
 $Comp
 L Connector_Generic:Conn_01x02 J4
 U 1 1 60E20C35
@@ -1255,4 +1147,10 @@ $EndComp
 Connection ~ 3450 6850
 Wire Wire Line
 	3450 6850 3500 6850
+Wire Wire Line
+	7000 2550 8350 2550
+Wire Wire Line
+	6250 3450 8350 3450
+Wire Wire Line
+	7550 4350 8350 4350
 $EndSCHEMATC
